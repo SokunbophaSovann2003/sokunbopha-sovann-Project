@@ -2,3 +2,232 @@ body{
     margin: 0;
     padding: 0;
 }
+/* --------------------home ---------------------- */
+/* menu */
+nav{
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+.logo{
+    font-size: 40px;
+    color: #00a994;
+}
+nav{
+    display: flex;
+}
+nav .menu{
+    margin-top: 20px;
+}
+nav .menu a{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: black;
+}
+nav .menu a:hover{
+    background-color: #00a994;
+    color: #fff;
+}
+nav .menu .focus{
+    border-bottom: 3px solid #00a994;
+    color: #00a994;
+}
+/* --------------button------------- */
+a{
+    text-decoration: none;
+}
+.button{
+    padding: 10px 20px;
+    background-color: #00a994;
+    color: #fff;
+    border-radius: 5px;
+}
+/* --------------left right--------------------- */
+.left, .right{
+    width: 48%;
+}
+/* --------------hight element------------ */
+.hight-el{
+    height: 80vh;
+}
+/* --------------paragraph-------------- */
+.color-w{
+    color: #fff;
+}
+.f-size-20{
+    font-size: 20px;
+}
+/* padding */
+.padding{
+    padding: 30px;
+}
+.padding15{
+    padding: 10px;
+}
+/* ---------------input--------------- */
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+/* ---------------element center----------- */
+.ele-center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* -------------grid------------ */
+.grid-3col{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.grid-2col{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+.gap{
+    gap: 50px;
+}
+.gap15{
+    gap: 15px;
+}
+/* ---------------box-sadow----------- */
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+/* --------------footer-------------- */
+
+footer{
+    margin: 50px 0;
+}
+hr{
+    border: 2px solid #00a994;
+}
+.text-center{
+    text-align: center;
+}
+.margin{
+    margin: 70px;
+}
+.magin-70{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.m-l{
+    margin-left: 20px;
+}
+.m-r{
+    margin-right: 20px;
+}
+.m-tb{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.d-f{
+    display: flex;
+}
+teal{
+    color: #00a994;
+}
+.full-teal{
+    background-color: #00a994;
+    padding: 15px;
+}
+
+/* ---------------respond home ---------------- */
+@media(max-width:768px){
+    .margin{
+        margin: 20px;
+    }
+    .ipad-margin{
+        margin: 40px;
+    }
+    .magin-70{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .magin-70 img, .margin img{
+        width: 250px;
+    }
+    .grid-3col img{
+        width: 150px;
+    }
+    .w-60 img{
+        width: 60px;
+    }
+    nav{
+        padding: 10px 30px;
+    }
+    .m-tb{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .hight-el{
+        height: 45vh;
+    }
+    .w-100{
+        width: 100%;
+    }
+    .gap{
+        gap: 20px;
+    }
+    .ipad-wrap{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .ipad-wrap-revers{
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .ipad-center{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .blog{
+        display: block;
+        text-align: center;
+    }
+}
+@media(max-width:480px){
+    .magin-70{
+        margin: 15px;
+    }
+    nav{
+        display: block;
+        text-align: center;
+    }
+    /* nav .menu a{
+        display: block;
+    } */
+    .focus{
+        color: #fff;
+    }
+    .display-f{
+        flex-wrap: wrap;
+    }
+    .flex-revers{
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+    .display-f .lelf{
+        width: 100%;
+    }
+    
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    h1{
+        font-size: 26px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
