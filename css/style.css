@@ -173,7 +173,7 @@ teal{
         margin-bottom: 30px;
     }
     .hight-el{
-        height: 70vh;
+        height: 80vh;
     }
     .w-100{
         width: 100%;
@@ -199,7 +199,7 @@ teal{
         text-align: center;
     }
 }
-@media(max-width:400px){
+@media(max-width:480px){
     .d-none{
         display: none;
     }
@@ -224,7 +224,7 @@ teal{
         flex-wrap: wrap;
     }
     .phone-width100{
-        width: 98%;
+        width: 100%;
     }
     .grid-3col{
         grid-template-columns: 1fr;
@@ -243,7 +243,7 @@ teal{
         font-size: 25px;
     }
     .hight-el{
-        height: 100vh;
+        height: 110vh;
     }
     .phone-m-tb{
         margin-top: 100px;
