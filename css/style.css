@@ -210,7 +210,7 @@ teal{
         text-align: center;
     }   
 }
-@media(max-width:500px){
+@media(max-width:550px){
     .phone-center{
         align-items: center;
         justify-content: center;
