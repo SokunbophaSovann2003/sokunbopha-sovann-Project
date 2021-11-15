@@ -76,6 +76,9 @@ a{
 .border-none{
     border: none;
 }
+.w-30{
+    width: 60%;
+}
 /* ---------------element center----------- */
 .ele-center{
     align-items: center;
@@ -207,7 +210,12 @@ teal{
         text-align: center;
     }   
 }
-@media(max-width:480px){
+@media(max-width:500px){
+    .phone-center{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
     .d-none{
         display: none;
     }
@@ -263,7 +271,6 @@ teal{
     }
     .phone-grid-3col{
         grid-template-columns:1fr 1fr;
-
     }
     h1{
         font-size: 25px;
